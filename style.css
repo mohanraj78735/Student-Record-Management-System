@@ -1,0 +1,41 @@
+/* Background */
+.stApp {
+    background-color: #f5f7fb;
+}
+
+/* Title */
+h1 {
+    color: #1f4e79;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Buttons */
+.stButton > button {
+    background-color: #2563eb;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 18px;
+    font-weight: bold;
+    width: 100%;
+}
+
+.stButton > button:hover {
+    background-color: #1d4ed8;
+    color: white;
+}
+
+/* Input boxes */
+.stTextInput input,
+.stSelectbox div[data-baseweb="select"] {
+    border-radius: 8px;
+}
+
+/* Metric cards */
+[data-testid="stMetric"] {
+    background-color: white;
+    border-radius: 12px;
+    padding: 15px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+}
